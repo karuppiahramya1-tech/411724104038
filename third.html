@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+    </head>
+    <body>
+        <!-- <input id="inp" type="text" value="Chennai"> -->
+        <input type="number" id="num">
+        <input type="number" id="num1">
+        <button onclick="sum()">Add</button>
+        <h4 id="result"></h4>
+        <!-- <p id="p"></p> -->
+        <script>
+            function sum(){
+            // let x=document.getElementById("inp").value;
+            let i=Number(document.getElementById("num").value);
+            let j=Number(document.getElementById("num1").value);
+            
+            // let s=i+j;
+            document.getElementById("result").innerHTML=i+j;
+
+            // let p=document.getElementById("p");
+            // p.innerHTML=x;
+            }
+        </script>
+    </body>
+</html>
